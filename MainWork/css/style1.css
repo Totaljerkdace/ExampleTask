@@ -1,0 +1,42 @@
+#bg {
+	background: black url('images/chel.png') no-repeat right;
+	background-attachment: scroll;
+	background-size: 35%;
+}
+
+#outterbox {
+	width: fit-content;
+border: 1px white solid;
+padding-left:10px;
+padding-right: 10px;
+}
+p{
+	color: white;
+	width: 600px;
+	text-align: justify;
+}
+
+#image1{
+	float: left;
+padding: 20px;
+}
+#image2{
+	float: right;
+padding: 20px;
+}
+a:link {
+	color: red;
+}
+a:visited {
+	color: green;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	color: blue;
+}
+
+.clearfix {
+	clear: both;
+}
